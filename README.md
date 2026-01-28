@@ -1,5 +1,52 @@
+# Practice Summary Card
 
-# Component and Styling Decision
+A responsive React component for displaying practice metrics and analytics in a dashboard.
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd practice-summary-card
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Running the Project
+
+**Development Mode:**
+```bash
+npm run dev
+```
+The application will start at `http://localhost:5173`
+
+**Build for Production:**
+```bash
+npm run build
+```
+
+**Preview Production Build:**
+```bash
+npm run preview
+```
+
+**Lint Code:**
+```bash
+npm run lint
+```
+
+---
+
+## Component and Styling Decision
 
 The folder structure follows a modular, single responsibility pattern which ensures that each component has one clear job it is handling. This approach makes it easy to add new features and maintain existing features/component.
 
